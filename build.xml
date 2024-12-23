@@ -41,7 +41,7 @@ dependencies: Checks that all class dependencies are met.
     </target>
 
     <target name="dependencies">
-        <available classname="javax.servlet.Servlet" property="hasServlet"/>
+        <available classname="jakarta.servlet.Servlet" property="hasServlet"/>
         <antcall target="hasServlet"/>
     </target>
 
